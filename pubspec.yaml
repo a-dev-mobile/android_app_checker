@@ -1,5 +1,6 @@
 name: android_app_checker
-description: "Android App Checker is an innovative Flutter plugin designed for efficiently determining the presence of installed applications on Android devices without requiring the extensive 'QUERY_ALL_PACKAGES' permission. This tool offers a privacy-centric approach, significantly reducing the scope of permissions needed, thereby aligning with the latest Google Play Store guidelines and enhancing user trust. Ideal for developers looking to maintain functionality while adhering to privacy standards, this plugin is easy to integrate and use in any Flutter project. It provides a streamlined method to check installed applications, ensuring your app remains compliant and secure."
+description: "Android App Checker is a Flutter plugin for checking installed apps on Android without needing 'QUERY_ALL_PACKAGES' permission. It ensures privacy compliance with Google Play Store guidelines, offering a secure way to verify app presence. Ideal for developers prioritizing user privacy, it's easy to integrate and enhances app security by using a specified list of apps in the Android manifest for checks."
+
 version: 0.0.1
 maintainer: Dmitriy Trofimov
 homepage: https://github.com/a-dev-mobile/android_app_checker
