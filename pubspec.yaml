@@ -1,7 +1,7 @@
 name: android_app_checker
-description: "Flutter plugin for verifying installed Android apps without 'QUERY_ALL_PACKAGES' permission. Complies with Google Play Store privacy rules, allowing safe app checks. Suitable for developers valuing user privacy. Integrates easily, uses Android manifest for app verification."
+description: "Flutter plugin for safe Android app verification without 'QUERY_ALL_PACKAGES' permission, aligning with Google Play privacy standards."
 
-version: 0.0.3
+version: 0.0.4
 maintainer: Dmitriy Trofimov
 homepage: https://github.com/a-dev-mobile/android_app_checker
 repository: https://github.com/a-dev-mobile/android_app_checker/
@@ -9,7 +9,7 @@ issue_tracker: https://github.com/a-dev-mobile/android_app_checker/issues
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
-  flutter: '>=3.16.7'
+  flutter: '>=1.20.0'
 
 dependencies:
   flutter:
